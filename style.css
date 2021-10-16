@@ -4,11 +4,11 @@ body {
     font-family: 'Lato', sans-serif;
 }
 .container {
-    width: 436px;
+    width: 360px;
 
 }
 .nav {
-    max-width: 376px;
+    max-width: 340px;
     margin: 60px auto 30px;
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,7 @@ body {
 } 
 
 .certificate_img {
-    width: 436px;
+    width: 360px;
 }
 
 .data_expires {
