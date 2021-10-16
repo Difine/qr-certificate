@@ -41,7 +41,7 @@ body {
 
 .data-expires:before {
     content: "";
-    background-image: url(/img/calendar_logo.PNG);
+    background-image: url(/calendar_logo.PNG);
     background-size: cover;
     display: inline-block;
     width: 20px;
