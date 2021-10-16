@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    width: 436px;
+
+}
+.nav {
+    max-width: 376px;
+    margin: 60px auto 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 7px;
+}
+
+.certificate {
+    display: flex;
+    justify-content: center;
+} 
+
+.certificate_img {
+    width: 436px;
+}
+
+.data_expires {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #66727f;
+}
+
+.data-expires {
+    position: relative;
+}
+
+.data-expires:before {
+    content: "";
+    background-image: url(/img/calendar_logo.PNG);
+    background-size: cover;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: text-top;
+    margin-right: 15px;
+}
+
+.data-expires:after {
+    margin-top: 30px;
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #e1e1e1;
+}
+
+.wrap_userdata {
+    display: flex;
+    justify-content: center;
+}
+
+.user_data {
+    margin-top: 40px;
+}
+
+.user_name {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.user_dob {
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.user_pass {
+    font-size: 19px;
+    text-align: center;
+}
+
+.gray {
+    color: #66727f;
+}
+
+.btn {
+    margin-top: 40px;
+    text-align: center;
+    border: solid 2px #0d4cd3;
+    border-radius: 12px;
+    padding: 20px;
+
+
+}
+
+.btn_close,
+.btn_close:active,
+.btn_close:hover {
+    text-decoration: none;
+    color: #0d4cd3;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
