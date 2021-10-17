@@ -68,19 +68,19 @@ body {
 }
 
 .user_name {
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 4px;
 }
 
 .user_dob {
-    font-size: 19px;
+    font-size: 17px;
     text-align: center;
     margin-bottom: 8px;
 }
 
 .user_pass {
-    font-size: 19px;
+    font-size: 17px;
     text-align: center;
 }
 
@@ -103,7 +103,7 @@ body {
 .btn_close:hover {
     text-decoration: none;
     color: #0d4cd3;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     
 }
